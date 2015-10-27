@@ -1,0 +1,36 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+
+\title{SC 15 One minute Presentation}
+\author{}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+ \item Traditional partitioning schemes focus on dividing the total work equally among the processors (ideal/perfect load balancing) which will introduce communication cost imbalances between nodes. 
+ \item These communication imbalances can decreases the overall performance in program execution. 
+ \item We introduce new SFC based partitioning scheme which allows some flexibility in partitioning. 
+ \item Flexibility allowed in partitioning can be use to reduce communication imbalances between nodes, leading to increased performance.
+ \item Our results show that, instead of traditionally used Morton curve based partitioning, using Hilbert curve based partitioning reacts better with the flexible partitioning, providing
+ better locality properties compared to Morton curve. 
+ \item Since computation of Hilbert ordering is not trivial compared to Morton ordering we present a new algorithm based on Nearest Common Ancestor (NCA) for Hilbert ordering which is almost efficient as Morton ordering and 9
+ times faster than traditional Hilbert ordering calculation based on recursive approach. 
+\end{itemize}
+
+
+
+
+\end{document}
