@@ -1,0 +1,38 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+
+\title{SC 15 Five minute Presentation}
+\author{}
+\date{}
+
+\pdfinfo{%
+  /Title    ()
+  /Author   ()
+  /Creator  ()
+  /Producer ()
+  /Subject  ()
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+
+\item Traditional partitioning schemes focus on dividing the total work equally among the processors (ideal/perfect load balancing) which will introduce communication cost imbalances between nodes.
+\item These communication imbalances can decreases the overall performance in program execution. 
+\item How octrees can be used to store hexahedral meshes.
+\item Nearest common ancestor of two octants.
+\item What is a Space filling curve and how it can be used in data partitioning.
+\item Comparison between graph partitioning and Space filling curve based partitioning.
+\item Contribution I: We are focus of developing partitioning scheme which introduces some flexibility in load balancing, and use allowed flexibility in load balancing to reduce the communication cost imbalance and overall
+communication cost.
+\item Comparison of flexible partitioning results of Hilbert and Morton Curve. 
+\item Contribution II: We develop a new algorithm to calculate the Hilbert ordering based on the NCA approach which is almost efficient as Morton curve and 9 times faster than the traditional recursive approach of calculating
+Hilbert curve.
+\end{itemize}
+
+
+\end{document}
